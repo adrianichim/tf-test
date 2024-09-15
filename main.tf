@@ -5,7 +5,7 @@ terraform {
   cloud {
     organization = "testorg-adrianichim"
     workspaces {
-      name = "tf-cloud-test"
+      name = "tf-test"
     }
   }
 
