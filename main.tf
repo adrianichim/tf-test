@@ -25,8 +25,8 @@ variable "region" {}
 
 # provider arguments call on the variables which then call on terraform.tfvars for the values.
 provider "aws" {
-  # access_key = var.aws_access_key
-  # secret_key = var.aws_secret_key
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
   region     = var.region
 }
 
